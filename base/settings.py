@@ -26,7 +26,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_ckeditor_5',
-    'shopapi.apps.ShopapiConfig',
+    'shopapi',
     'rest_framework',
 ]
 
@@ -67,8 +67,8 @@ WSGI_APPLICATION = 'base.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': "shop_db",
-        'USER': "mysql",
+        'NAME': "shop",
+        'USER': "root",
         'PASSWORD': "mysql",
         'HOST': "localhost",
         'PORT': 3306,
